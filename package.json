@@ -1,0 +1,37 @@
+{
+  "name": "coa",
+  "version": "1.0.0",
+  "description": "Natural language triggers the logic of currency transfer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy.js",
+    "test": "node test-connection.js",
+    "test-models": "node test-models.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AizelNetwork/COA.git"
+  },
+  "keywords": [
+    "blockchain",
+    "minio",
+    "inference",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AizelNetwork/COA/issues"
+  },
+  "homepage": "https://github.com/AizelNetwork/COA#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "jose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
